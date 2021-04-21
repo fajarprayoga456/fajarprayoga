@@ -6,9 +6,9 @@ public class NIMRun {
     public static void main(String[] args) {
         Scanner min = new Scanner(System.in);
         System.out.print("Nama: ");
-        String nama = min.nextLine();
+        String nama = min.nextLine(); //nama = FAJAR PRAYOGA
         System.out.print("NIM: ");
-        String nim = min.nextLine();
+        String nim = min.nextLine();  //nim = 12050112032
         NIM objNim = new NIM();
         objNim.setNim(nim);
         System.out.println("Jenjang Perndidikan = "+objNim.getJenjang());
